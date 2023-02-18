@@ -8,4 +8,7 @@ System.out.print(world);
 }
 psvm{
 System.out.print(saif);
+psvm{
+System.out.print(ali);
+}
 }
