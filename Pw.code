@@ -1,14 +1,14 @@
-class pw skill{
-psvm{
-System.out.print(hello);
-}
-
-psvm{
-System.out.print(world);
-}
-psvm{
-System.out.print(saif);
-psvm{
-System.out.print(ali);
-}
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
+        int c = 0;
+        for(int i = 0;i<n;i++){
+            if(nums[i]!=0){
+                nums[c++] = nums[i];
+            }
+        }
+        while(c<n){
+            nums[c++]=0;
+        }
+    }
 }
